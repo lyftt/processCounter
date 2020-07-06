@@ -15,7 +15,7 @@ public:
     
     //int startProcess();  //start the process
 
-    //bool killProcess();  //kill the process
+    bool killProcess();  //kill the process
 private:
     std::string processName;
 };

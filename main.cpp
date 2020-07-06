@@ -5,10 +5,11 @@
 
 int main()
 {
-    processCounter pc("test");
+    processCounter pc("vim");
+
+    pc.killProcess();
 
     int c = pc.counter();
-
     std::cout<<"count="<<c<<std::endl;
     return 0;
 }
